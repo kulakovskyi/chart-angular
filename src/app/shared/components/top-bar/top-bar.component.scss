@@ -1,0 +1,31 @@
+.bar{
+  padding: 20px 0;
+  background: #00003D;
+  color: #FFFFFF;
+  &__container{
+    max-width: 1470px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  &__list{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  &__item{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    transition: color .3s ease;
+    &:hover{
+      color: #FF267E;
+    }
+    &.active{
+      color: #FF267E;
+    }
+  }
+}
